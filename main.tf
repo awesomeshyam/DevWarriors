@@ -7,3 +7,8 @@ resource "azurerm_resource_group" "rembo" {
   name     = "rg-rembo"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "jacky" {
+  name     = "rg-jacky"
+  location = "West Europe"
+}
