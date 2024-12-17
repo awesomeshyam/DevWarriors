@@ -10,5 +10,5 @@ resource "azurerm_resource_group" "rembo" {
 
 resource "azurerm_resource_group" "jacky" {
   name     = "rg-jacky"
-  location = "West Europe"
+  location = "West US"
 }
